@@ -1,0 +1,78 @@
+body {
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows:repeat(2,auto);
+}
+h1 {
+   grid-row-start: 1;
+   grid-row-end: 2;
+}
+
+body > form  {
+    grid-row-start: 2;
+   grid-row-end: 3;
+   display:grid;
+   grid-template-columns: repeat(5, auto);
+   grid-template-rows:repeat(12,auto);
+   background-color: rgb(158, 158, 158);
+}
+
+body>form>input[type = button] {
+    font-size:1.4em;
+    padding:0.4em;
+    margin:0.6em;
+    border-radius: 0.8em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(214, 214, 214);
+  
+}
+
+/*Pantalla*/
+body > form>textarea:first-of-type{
+    grid-row-start: 1;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    background-color: rgb(190, 255, 160);
+    color: rgb(0, 0, 0);
+    font-size:2em;
+    padding:0.4em;
+    margin:0.6em;
+    border-radius: 0.5em;
+    text-align: right;
+    overflow:scroll;
+    resize: none;
+}
+
+body>form>input[type = button][value = 'sin' ],
+body>form>input[type = button][value = 'cos' ],
+body>form>input[type = button][value = 'tan' ],
+body>form>input[type = button][value = 'aSin' ],
+body>form>input[type = button][value = 'aCos' ],
+body>form>input[type = button][value = 'aTan' ] {
+    background-color: black;
+    color:blanchedalmond;
+
+}
+
+body>form>input[type = button][value = '*' ],
+body>form>input[type = button][value = '+' ],
+body>form>input[type = button][value = '-' ],
+body>form>input[type = button][value = '/' ]
+ {
+    background-color: rgb(117, 2, 2);
+    color:rgb(255, 255, 255);
+
+}
+
+body>form>input[type = button][value = 'ENTER' ] {
+    background-color: rgb(7, 77, 226);
+    color:rgb(255, 255, 255);
+    grid-row-start: 12;
+    grid-row-end: 13;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
+

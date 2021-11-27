@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento, Margaret Hamilton-->
+    <meta charset="UTF-8" />
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="CalculadoraRPNCambioUds.css" />
+    <script src = "CalculadoraRPNCambioUds.js"></script>
+
+    <title>Calculadora RPN cambio de unidades</title>
+	<meta name = "author" content = "Mario Lada Martínez" />
+	<meta name = "description" content = "Ejercicio 3"/>
+	<meta name="keywords" content="Ejercicio 3"/>
+
+</head>
+
+<body>
+<h1>Calculadora RPN cambio uds</h1>
+    <form>
+        <textarea id="comentario" name = "comment" rows="5" cols="15" disabled></textarea>
+        <input type="button" value = "7" onclick="calculadora.digitos('7')">
+        <input type="button" value = "8" onclick="calculadora.digitos('8')">
+        <input type="button" value = "9" onclick="calculadora.digitos('9')">
+        <input type="button" value = "/" onclick="calculadora.division()">
+        <input type="button" value = "*" onclick="calculadora.multiplicacion()">
+
+        <input type="button" value = "4" onclick="calculadora.digitos('4')">
+        <input type="button" value = "5" onclick="calculadora.digitos('5')">
+        <input type="button" value = "6" onclick="calculadora.digitos('6')">
+        <input type="button" value = "+" onclick="calculadora.suma()">
+        <input type="button" value = "-" onclick="calculadora.resta()">
+
+        <input type="button" value = "1" onclick="calculadora.digitos('1')">
+        <input type="button" value = "2" onclick="calculadora.digitos('2')">
+        <input type="button" value = "3" onclick="calculadora.digitos('3')">
+        <input type="button" value = "sin" onclick="calculadora.sin()">
+        <input type="button" value = "cos" onclick="calculadora.cos()">
+
+        <input type="button" value = "." onclick="calculadora.punto()">
+        <input type="button" value = "0" onclick="calculadora.digitos('0')">
+        <input type="button" value = "C" onclick="calculadora.borrar()">
+     
+        <input type="button" value = "tan" onclick="calculadora.tan()">
+     
+
+        <input type="button" value = "aSin" onclick="calculadora.aSin()">
+        <input type="button" value = "aCos" onclick="calculadora.aCos()">
+        <input type="button" value = "aTan" onclick="calculadora.aTan()"> 
+        <input type="button" value = "ENTER" onclick="calculadora.enter()">
+
+        <input type="button" value = "metro" onclick="calculadora.metro()">  <!--39.9-->
+        <input type="button" value = "kg" onclick="calculadora.kg()"> <!--3.28-->
+        <input type="button" value = "in" onclick="calculadora.pulgada()">  <!--39.9-->
+        <input type="button" value = "ft" onclick="calculadora.pie()"> <!--3.28-->
+        <input type="button" value = "yd" onclick="calculadora.yarda()"> <!--1.09-->
+        <input type="button" value = "mi" onclick="calculadora.milla()"><!--0,000621371-->
+        <input type="button" value = "lb" onclick="calculadora.libra()"><!--2.20462-->
+        <input type="button" value = "oz" onclick="calculadora.onza()"><!--35.27-->
+
+
+
+        
+    </form>
+   
+
+
+
+
+</body>
