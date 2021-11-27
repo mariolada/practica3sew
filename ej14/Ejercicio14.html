@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="UTF-8" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="Ejercicio14objetos.js"></script>
+	<link rel="stylesheet" href="Ejercicio14.css" />
+
+
+	<title>Varios archivos</title>
+
+</head>
+
+<body>	<h1>Cálculo automático de notas de alumnos</h1>
+	<p>Empleto de API File, API Drag and Drop, API Geolocation</p>
+	<p>Esta aplicación recibe un fichero y a partir de él genera un texto con la nota textual correspondiente de cada alumno con la localización de la corrección</p>
+	<p>El funcionamiento consiste en arrastrar el fichero de datos de los alumnos mediante la Api Drag and Drop</p>
+	<p>Mediante la Api File se lee el contenido del archivo, se analiza y se pone la nota correspondiente al alumno</p>
+	<p>Los ficheros han de tener el formato "Nombre alumno;nota" en cada línea del fichero</p>
+	<p>Este análisis genera un resultado que incluye además la localización de la corrección, por si eres un profesor que se mueve bastante, recordar donde has corregido los examenes</p>
+	<p>O por si olvidaste corregir algún examen, que sepas el lugar donde probablemente esté. Para ello tienes que aceptar el acceso a tu ubicación al iniciar la pantalla</p>
+	<section id="drop_zone" ondrop="app.dropHandler(event);" ondragover="app.dragOverHandler(event);">
+		<p>Arrastra y suelta AQUÍ el archivo de notas del los alumnos con el formato: "Nombre alumno:nota"</p>
+	</section>
+	<section>
+
+	</section>
+	<footer>
+		<p>UO275874, Lector archivos, Universidad de Oviedo</p>
+		<address>
+			<p> Información de contacto:
+				<a href="mailto:UO275874@uniovi.es">
+					Mario Lada Martínez</a></p>
+		</address>
+	</footer>
+</body>
+
+</html>

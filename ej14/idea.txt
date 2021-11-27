@@ -1,0 +1,14 @@
+api file
+api web audio
+api drag and drop
+
+Aplciacion en la que puedes soltar musica o subirla medainte un archivo con un determinadoi formato
+Arrastrar notas de alumnos api drag and drop, leer archivo
+
+
+FILE
+DRAG AND DROP
+NAVIGATOR
+
+A PARTIR DE UN ARCHIVO DE NOTAS QUE SE ARRASTRA, SE PONE NOTA SEGUN EL NUMERO DE NOTA. SE GENERA FICHJERO CON NOMBRE NOTA Y UBICACION DE LA CORRECCION
+(POR SI ACASO EL ALUMNO QUIERE RECLAMAR, MEJOR HAJCERLO EN EL DESPACHO)

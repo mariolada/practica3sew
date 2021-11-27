@@ -1,0 +1,1 @@
+document.write('<h4>'+infoCabecera.nombreUniversidad+'</h4>');

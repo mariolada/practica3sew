@@ -1,0 +1,57 @@
+body {
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows:repeat(2,auto);
+    background-color: rgb(199, 163, 110);
+}
+h1 {
+   grid-row-start: 1;
+   grid-row-end: 2;
+}
+body > form  {
+    grid-row-start: 2;
+   grid-row-end: 3;
+   display:grid;
+   grid-template-columns: repeat(4, auto);
+   grid-template-rows:repeat(7,auto);
+   background-color: rgb(17, 17, 17);
+}
+
+body>form>input[type = button] {
+    color: white;
+    background-color: rgb(168, 168, 168);
+    font-size:1.4em;
+    padding:0.4em;
+    margin:0.6em;
+    border-radius: 0.8em;
+  
+}
+body > form>input:first-of-type{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: rgb(190, 255, 160);
+    color: rgb(0, 0, 0);
+    font-size:2em;
+    padding:0.4em;
+    margin:0.6em;
+    border-radius: 0.5em;
+    text-align: center;
+}
+input[type = button]:nth-child(-n+4) {
+    color: white;
+    background-color: rgb(71, 71, 71);
+
+}
+input[type = button]:nth-child(4n+1) {
+    color:black;
+    background-color: rgb(255, 93, 93);
+
+}
+
+
+
+
+
+

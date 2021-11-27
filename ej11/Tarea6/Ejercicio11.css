@@ -1,0 +1,18 @@
+body { margin:0; padding:0;
+    background-color: burlywood;
+    color: black;
+} 
+
+h1{
+    color:rgb(59, 32, 0);
+
+}
+
+button {
+    color:rgb(255, 255, 255);
+    background-color: rgb(44, 29, 0);
+}
+
+main{
+    position:relative; top:0; bottom:0; width:100%; height: 550px; 
+}

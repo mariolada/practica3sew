@@ -1,0 +1,5 @@
+He intentado investigar propiedades de Navigator que no estuvieran deprecated, sin embargo, al intentar poner esas propiedades, no daban ningún valor, 
+dando valores por defecto o errores. Por eso al final he puesto las propiedades que aún estando deprecated, me devuelven valores correctos.
+
+Además, he tenido que utilizar <br> para facilitar la lectura de MásInfoNavegador, porque en el ejercicio nos manda incrustar la información en un solo 
+párrafo y como se colocaba toda la información seguida, no se podía leer fácilmente. Soy consciente de su uso, solo es para facilitar la compresión lectora
