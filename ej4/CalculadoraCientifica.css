@@ -8,7 +8,7 @@ h1 {
    grid-row-end: 2;
 }
 
-body > form  {
+body > section  {
     grid-row-start: 2;
    grid-row-end: 3;
    display:grid;
@@ -17,7 +17,7 @@ body > form  {
    background-color: rgb(233, 233, 233);
 }
 
-body>form>input[type = button] {
+body>section>input[type = button] {
     font-size:1.4em;
     padding:0.4em;
     margin:0.6em;
@@ -28,7 +28,7 @@ body>form>input[type = button] {
 }
 
 /*Pantalla*/
-body > form>input:first-of-type{
+body > section>input:first-of-type{
     grid-row-start: 1;
     grid-row-end: 3;
     grid-column-start: 1;
@@ -40,29 +40,29 @@ body > form>input:first-of-type{
     border-radius: 0.5em;
     text-align: center;
 }
-body>form>input[type = button][value = 'mrc' ],
-body>form>input[type = button][value = 'm+' ],
-body>form>input[type = button][value = 'm-' ] {
+body>section>input[type = button][value = 'mrc' ],
+body>section>input[type = button][value = 'm+' ],
+body>section>input[type = button][value = 'm-' ] {
     color:white;
     background-color:rgb(29, 29, 29) ;
 }
 
-body>form>input[type = button][value = '=' ]
+body>section>input[type = button][value = '=' ]
 {
     color:white;
     background-color:rgb(3, 22, 75) ;
 }
-body>form>input[type = button][value = 'inv' ],
-body>form>input[type = button][value = 'hyp' ],
-body>form>input[type = button][value = 'trig' ] {
+body>section>input[type = button][value = 'inv' ],
+body>section>input[type = button][value = 'hyp' ],
+body>section>input[type = button][value = 'trig' ] {
     color:white;
     background-color:rgb(70, 0, 0) ;
 }
-body>form>input[type = button][value = '0' ],body>form>input[type = button][value = '1' ],
-body>form>input[type = button][value = '2' ],body>form>input[type = button][value = '3' ],
-body>form>input[type = button][value = '4' ],body>form>input[type = button][value = '5' ],
-body>form>input[type = button][value = '6' ],body>form>input[type = button][value = '7' ],
-body>form>input[type = button][value = '8' ],body>form>input[type = button][value = '9' ]
+body>section>input[type = button][value = '0' ],body>section>input[type = button][value = '1' ],
+body>section>input[type = button][value = '2' ],body>section>input[type = button][value = '3' ],
+body>section>input[type = button][value = '4' ],body>section>input[type = button][value = '5' ],
+body>section>input[type = button][value = '6' ],body>section>input[type = button][value = '7' ],
+body>section>input[type = button][value = '8' ],body>section>input[type = button][value = '9' ]
 {
 color:blanchedalmond;
 background-color: dimgrey;
