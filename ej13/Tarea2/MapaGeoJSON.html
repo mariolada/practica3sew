@@ -1,51 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<title>Demo: Add custom markers in Mapbox GL JS</title>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link
-href="https://fonts.googleapis.com/css?family=Open+Sans"
-rel="stylesheet"
-/>
-<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.js"></script>
-<link
-href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.css"
-rel="stylesheet"
-/>
-<style>
-body {
-margin: 0;
-padding: 0;
-}
-#map {
-position: absolute;
-top: 0;
-bottom: 0;
-width: 100%;
-}
-.marker {
-background-image: url('mapbox-icon.png');
-background-size: cover;
-width: 50px;
-height: 50px;
-border-radius: 50%;
-cursor: pointer;
-}
-.mapboxgl-popup {
-max-width: 200px;
-}
-.mapboxgl-popup-content {
-text-align: center;
-font-family: 'Open Sans', sans-serif;
-}
-</style>
-</head>
-<body>
+<html lang="es">
 
-<p><input id="subirArchivos" type="file" name="Archivos" onchange="calcularTamañoArchivos();" multiple></p>
-<section id="map"></section>
-<script src = "MapaGeoJSON.js"></script>
+<head>
+    <meta charset="utf-8" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Procesamiento GeoJSON</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.js"></script>
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="MapaGeoJSON.css"/>
+</head>
+
+<body>
+<h1>Mapa Generado a partir de GeoJSON</h1>
+    <section id="map"></section>
+    <script src="MapaGeoJSON.js"></script>
 </body>
+
 </html>
