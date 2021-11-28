@@ -172,8 +172,6 @@ class Calculadora {
         document.querySelector("textarea:first-of-type").value = this.pantalla;
     }
 
-
-
     borrar() {
         this.pantalla = '';
         this.current = '';
@@ -191,6 +189,9 @@ class Calculadora {
             }
             else if (tecla == 'C') {
                 this.borrar();
+            }
+            else if (tecla == 'Enter') {
+                this.enter();
             }
             else {
                 if (tecla == '+') {

@@ -13,7 +13,7 @@ body > section  {
    grid-row-end: 3;
    display:grid;
    grid-template-columns: repeat(5, auto);
-   grid-template-rows:repeat(12,auto);
+   grid-template-rows:repeat(13,auto);
    background-color: rgb(158, 158, 158);
 }
 
@@ -72,6 +72,10 @@ body>section>input[type = button][value = 'ENTER' ] {
     grid-row-end: 13;
     grid-column-start: 1;
     grid-column-end: 4;
+}
+h2 {
+    grid-row-start: 13;
+    grid-row-end: 14;
 }
 
 
