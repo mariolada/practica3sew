@@ -4,7 +4,7 @@ body {
     grid-template-rows:repeat(3,auto);
     background-color: rgb(199, 163, 110);
 }
-h1 {
+header {
    grid-row-start: 1;
    grid-row-end: 2;
 }
@@ -12,7 +12,7 @@ nav {
     grid-row-start: 2;
     grid-row-end: 3;
 }
-body > section  {
+body > form  {
     grid-row-start: 3;
    grid-row-end: 4;
    display:grid;
@@ -21,7 +21,7 @@ body > section  {
    background-color: rgb(17, 17, 17);
 }
 
-body>section>input[type = button] {
+body>form>input[type = button] {
     color: white;
     background-color: rgb(168, 168, 168);
     font-size:1.4em;
@@ -30,7 +30,11 @@ body>section>input[type = button] {
     border-radius: 0.8em;
   
 }
-body > section>input:first-of-type{
+body > form>input:first-of-type {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+body > form>input[type = "text"]{
     grid-row-start: 2;
     grid-row-end: 4;
     grid-column-start: 1;
@@ -43,21 +47,17 @@ body > section>input:first-of-type{
     border-radius: 0.5em;
     text-align: center;
 }
-body > section>input[type = button]:nth-child(-n+5) {
+body > form>input[type = button]:nth-child(-n+5) {
     color: white;
     background-color: rgb(71, 71, 71);
 
 }
-body > section>input[type = button]:nth-child(4n+2) {
+body > form>input[type = button]:nth-child(4n+2) {
     color:black;
     background-color: rgb(255, 93, 93);
 
 }
-section>h2 {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    color:white;
-}
+
 
 
 
