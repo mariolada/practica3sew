@@ -13,7 +13,7 @@ body > form  {
    grid-row-end: 3;
    display:grid;
    grid-template-columns: repeat(5, auto);
-   grid-template-rows:repeat(12,auto);
+   grid-template-rows:repeat(13,auto);
    background-color: rgb(158, 158, 158);
 }
 
@@ -26,11 +26,15 @@ body>form>input[type = button] {
     background-color: rgb(214, 214, 214);
   
 }
+body>form>input:first-of-type {
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
 
 /*Pantalla*/
 body > form>textarea:first-of-type{
-    grid-row-start: 1;
-    grid-row-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 9;
     grid-column-start: 1;
     grid-column-end: 6;
     background-color: rgb(190, 255, 160);
@@ -68,10 +72,25 @@ body>form>input[type = button][value = '/' ]
 body>form>input[type = button][value = 'ENTER' ] {
     background-color: rgb(7, 77, 226);
     color:rgb(255, 255, 255);
-    grid-row-start: 12;
-    grid-row-end: 13;
     grid-column-start: 1;
     grid-column-end: 4;
+}
+
+body>form>input[type = button][value = 'metro' ],
+body>form>input[type = button][value = 'ft' ],
+body>form>input[type = button][value = 'yd' ],
+body>form>input[type = button][value = 'in' ],
+body>form>input[type = button][value = 'mi' ] {
+    color:rgb(255, 92, 92);
+    background-color: rgb(22, 22, 22);
+
+}
+
+body>form>input[type = button][value = 'kg' ],
+body>form>input[type = button][value = 'lb' ],
+body>form>input[type = button][value = 'oz' ] {
+    color:rgb(116, 255, 135);
+    background-color: rgb(22, 22, 22);
 }
 
 
