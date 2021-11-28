@@ -13,7 +13,7 @@ body > section  {
    grid-row-end: 3;
    display:grid;
    grid-template-columns: repeat(5, auto);
-   grid-template-rows:repeat(11,auto);
+   grid-template-rows:repeat(12,auto);
    background-color: rgb(233, 233, 233);
 }
 
@@ -68,4 +68,9 @@ color:blanchedalmond;
 background-color: dimgrey;
 }
 
+h2 {
+    grid-row-start: 12;
+    grid-row-end: 13;
+    color: rgb(0, 0, 0);
+}
 

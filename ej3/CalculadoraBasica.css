@@ -52,6 +52,7 @@ input[type = button]:nth-child(4n+1) {
 section>h2 {
     grid-row-start: 8;
     grid-row-end: 9;
+    color:white;
 }
 
 
