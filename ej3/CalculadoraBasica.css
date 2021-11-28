@@ -13,7 +13,7 @@ body > section  {
    grid-row-end: 3;
    display:grid;
    grid-template-columns: repeat(4, auto);
-   grid-template-rows:repeat(7,auto);
+   grid-template-rows:repeat(8,auto);
    background-color: rgb(17, 17, 17);
 }
 
@@ -48,6 +48,10 @@ input[type = button]:nth-child(4n+1) {
     color:black;
     background-color: rgb(255, 93, 93);
 
+}
+section>h2 {
+    grid-row-start: 8;
+    grid-row-end: 9;
 }
 
 
