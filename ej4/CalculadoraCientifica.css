@@ -13,7 +13,7 @@ body > form  {
    grid-row-end: 3;
    display:grid;
    grid-template-columns: repeat(5, auto);
-   grid-template-rows:repeat(13,auto);
+   grid-template-rows:repeat(14,auto);
    background-color: rgb(233, 233, 233);
 }
 
@@ -30,10 +30,17 @@ body > form>input:first-of-type {
     grid-column-start: 1;
     grid-column-end: 6;
 }
+h2 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+
+    color: rgb(0, 0, 0);
+}
+
 /*Pantalla*/
 body > form>input[type = text]{
-    grid-row-start: 2;
-    grid-row-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
     grid-column-start: 1;
     grid-column-end: 6;
     color: rgb(0, 0, 0);
@@ -73,11 +80,4 @@ color:rgb(255, 255, 255);
 background-color:rgb(29, 29, 29) ;
 }
 
-h2 {
-    grid-row-start: 12;
-    grid-row-end: 13;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    color: rgb(0, 0, 0);
-}
 
