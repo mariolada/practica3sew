@@ -8,7 +8,7 @@ h1 {
    grid-row-end: 2;
 }
 
-body > form  {
+body > section  {
     grid-row-start: 2;
    grid-row-end: 3;
    display:grid;
@@ -17,7 +17,7 @@ body > form  {
    background-color: rgb(158, 158, 158);
 }
 
-body>form>input[type = button] {
+body>section>input[type = button] {
     font-size:1.4em;
     padding:0.4em;
     margin:0.6em;
@@ -28,7 +28,7 @@ body>form>input[type = button] {
 }
 
 /*Pantalla*/
-body > form>textarea:first-of-type{
+body > section>textarea:first-of-type{
     grid-row-start: 1;
     grid-row-end: 8;
     grid-column-start: 1;
@@ -44,28 +44,28 @@ body > form>textarea:first-of-type{
     resize: none;
 }
 
-body>form>input[type = button][value = 'sin' ],
-body>form>input[type = button][value = 'cos' ],
-body>form>input[type = button][value = 'tan' ],
-body>form>input[type = button][value = 'aSin' ],
-body>form>input[type = button][value = 'aCos' ],
-body>form>input[type = button][value = 'aTan' ] {
+body>section>input[type = button][value = 'sin' ],
+body>section>input[type = button][value = 'cos' ],
+body>section>input[type = button][value = 'tan' ],
+body>section>input[type = button][value = 'aSin' ],
+body>section>input[type = button][value = 'aCos' ],
+body>section>input[type = button][value = 'aTan' ] {
     background-color: black;
     color:blanchedalmond;
 
 }
 
-body>form>input[type = button][value = '*' ],
-body>form>input[type = button][value = '+' ],
-body>form>input[type = button][value = '-' ],
-body>form>input[type = button][value = '/' ]
+body>section>input[type = button][value = '*' ],
+body>section>input[type = button][value = '+' ],
+body>section>input[type = button][value = '-' ],
+body>section>input[type = button][value = '/' ]
  {
     background-color: rgb(117, 2, 2);
     color:rgb(255, 255, 255);
 
 }
 
-body>form>input[type = button][value = 'ENTER' ] {
+body>section>input[type = button][value = 'ENTER' ] {
     background-color: rgb(7, 77, 226);
     color:rgb(255, 255, 255);
     grid-row-start: 12;
