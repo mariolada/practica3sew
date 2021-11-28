@@ -51,6 +51,8 @@ body>section>input[type = button][value = '=' ]
 {
     color:white;
     background-color:rgb(3, 22, 75) ;
+    grid-column-start: 4;
+    grid-column-end: 6;
 }
 body>section>input[type = button][value = 'inv' ],
 body>section>input[type = button][value = 'hyp' ],
@@ -64,8 +66,8 @@ body>section>input[type = button][value = '4' ],body>section>input[type = button
 body>section>input[type = button][value = '6' ],body>section>input[type = button][value = '7' ],
 body>section>input[type = button][value = '8' ],body>section>input[type = button][value = '9' ]
 {
-color:blanchedalmond;
-background-color: dimgrey;
+color:rgb(255, 255, 255);
+background-color:rgb(29, 29, 29) ;
 }
 
 h2 {
