@@ -8,7 +8,7 @@ h1 {
    grid-row-start: 1;
    grid-row-end: 2;
 }
-body > form  {
+body > section  {
     grid-row-start: 2;
    grid-row-end: 3;
    display:grid;
@@ -17,7 +17,7 @@ body > form  {
    background-color: rgb(17, 17, 17);
 }
 
-body>form>input[type = button] {
+body>section>input[type = button] {
     color: white;
     background-color: rgb(168, 168, 168);
     font-size:1.4em;
@@ -26,7 +26,7 @@ body>form>input[type = button] {
     border-radius: 0.8em;
   
 }
-body > form>input:first-of-type{
+body > section>input:first-of-type{
     grid-row-start: 1;
     grid-row-end: 3;
     grid-column-start: 1;
