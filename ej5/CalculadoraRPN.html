@@ -1,55 +1,84 @@
 <!DOCTYPE HTML>
 
 <html lang="es">
+
 <head>
     <meta charset="UTF-8" />
-    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
 
     <link rel="stylesheet" type="text/css" href="CalculadoraRPN.css" />
-    <script src = "CalculadoraRPN.js"></script>
+    <script src="CalculadoraRPN.js"></script>
 
     <title>Calculadora RPN</title>
-	<meta name = "author" content = "Mario Lada Martínez" />
-	<meta name = "description" content = "Ejercicio 5"/>
-	<meta name="keywords" content="Ejercicio 5"/>
+    <meta name="author" content="Mario Lada Martínez" />
+    <meta name="description" content="Ejercicio 5" />
+    <meta name="keywords" content="Ejercicio 5" />
 
 </head>
 
 <body>
-<h1>Calculadora RPN</h1>
-    <section>
-        <h2>RPN</h2>
+    <header>
+        <h1>Calculadora RPN</h1>
+        <p>Calculadora realizada con HTML, CSS y JS</p>
+    </header>
+    <label for="boton"></label>
+    <label for="s"></label>
+    <label for="boton1"></label>
+    <label for="boton2"></label>
+    <label for="boton3"></label>
+    <label for="boton4"></label>
+    <label for="boton5"></label>
+    <label for="boton6"></label>
+    <label for="boton7"></label>
+    <label for="boton8"></label>
+    <label for="boton9"></label>
+    <label for="boton10"></label>
+    <label for="boton11"></label>
+    <label for="boton12"></label>
+    <label for="boton13"></label>
+    <label for="boton14"></label>
+    <label for="boton15"></label>
+    <label for="boton16"></label>
+    <label for="boton17"></label>
+    <label for="boton18"></label>
+    <label for="boton19"></label>
+    <label for="boton20"></label>
+    <label for="boton21"></label>
+    <label for="boton22"></label>
+    <form>
+        <input type="submit" id="s" value="UO275874" disabled>
         <textarea rows="5" cols="15" disabled></textarea>
-        <input type="button" value = "7" onclick="calculadora.digitos('7')">
-        <input type="button" value = "8" onclick="calculadora.digitos('8')">
-        <input type="button" value = "9" onclick="calculadora.digitos('9')">
-        <input type="button" value = "/" onclick="calculadora.division()">
-        <input type="button" value = "*" onclick="calculadora.multiplicacion()">
+        <input type="button" id="boton" value="7" onclick="calculadora.digitos('7')">
+        <input type="button" id="boton1" value="8" onclick="calculadora.digitos('8')">
+        <input type="button" id="boton2" value="9" onclick="calculadora.digitos('9')">
+        <input type="button" id="boton3" value="/" onclick="calculadora.division()">
+        <input type="button" id="boton4" value="*" onclick="calculadora.multiplicacion()">
 
-        <input type="button" value = "4" onclick="calculadora.digitos('4')">
-        <input type="button" value = "5" onclick="calculadora.digitos('5')">
-        <input type="button" value = "6" onclick="calculadora.digitos('6')">
-        <input type="button" value = "+" onclick="calculadora.suma()">
-        <input type="button" value = "-" onclick="calculadora.resta()">
+        <input type="button" id="boton5" value="4" onclick="calculadora.digitos('4')">
+        <input type="button" id="boton6" value="5" onclick="calculadora.digitos('5')">
+        <input type="button" id="boton7" value="6" onclick="calculadora.digitos('6')">
+        <input type="button" id="boton8" value="+" onclick="calculadora.suma()">
+        <input type="button" id="boton9" value="-" onclick="calculadora.resta()">
 
-        <input type="button" value = "1" onclick="calculadora.digitos('1')">
-        <input type="button" value = "2" onclick="calculadora.digitos('2')">
-        <input type="button" value = "3" onclick="calculadora.digitos('3')">
-        <input type="button" value = "sin" onclick="calculadora.sin()">
-        <input type="button" value = "cos" onclick="calculadora.cos()">
+        <input type="button" id="boton10" value="1" onclick="calculadora.digitos('1')">
+        <input type="button" id="boton11" value="2" onclick="calculadora.digitos('2')">
+        <input type="button" id="boton12" value="3" onclick="calculadora.digitos('3')">
+        <input type="button" id="boton13" value="sin" onclick="calculadora.sin()">
+        <input type="button" id="boton14" value="cos" onclick="calculadora.cos()">
 
-        <input type="button" value = "." onclick="calculadora.punto()">
-        <input type="button" value = "0" onclick="calculadora.digitos('0')">
-        <input type="button" value = "C" onclick="calculadora.borrar()">
-     
-        <input type="button" value = "tan" onclick="calculadora.tan()">
-     
+        <input type="button" id="boton15" value="." onclick="calculadora.punto()">
+        <input type="button" id="boton16" value="0" onclick="calculadora.digitos('0')">
+        <input type="button" id="boton17" value="C" onclick="calculadora.borrar()">
+        <input type="button" id="boton21" value="aTan" onclick="calculadora.aTan()">
+        <input type="button" id="boton18" value="tan" onclick="calculadora.tan()">
 
-        <input type="button" value = "aSin" onclick="calculadora.aSin()">
-        <input type="button" value = "aCos" onclick="calculadora.aCos()">
-        <input type="button" value = "aTan" onclick="calculadora.aTan()"> 
-        <input type="button" value = "ENTER" onclick="calculadora.enter()">
-        
-    </section>
-   </body>
+        <input type="button" id="boton22" value="ENTER" onclick="calculadora.enter()">
+        <input type="button" id="boton19" value="aSin" onclick="calculadora.aSin()">
+        <input type="button" id="boton20" value="aCos" onclick="calculadora.aCos()">
+
+
+
+    </form>
+</body>
+
 </html>

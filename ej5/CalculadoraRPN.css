@@ -3,21 +3,24 @@ body {
     grid-template-columns: repeat(1,1fr);
     grid-template-rows:repeat(2,auto);
 }
-h1 {
+header {
    grid-row-start: 1;
    grid-row-end: 2;
 }
 
-body > section  {
+body > form  {
     grid-row-start: 2;
    grid-row-end: 3;
    display:grid;
    grid-template-columns: repeat(5, auto);
-   grid-template-rows:repeat(13,auto);
+   grid-template-rows:repeat(14,auto);
    background-color: rgb(158, 158, 158);
 }
-
-body>section>input[type = button] {
+body > form>input:first-of-type {
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+body>form>input[type = button] {
     font-size:1.4em;
     padding:0.4em;
     margin:0.6em;
@@ -28,9 +31,9 @@ body>section>input[type = button] {
 }
 
 /*Pantalla*/
-body > section>textarea:first-of-type{
-    grid-row-start: 1;
-    grid-row-end: 8;
+body > form>textarea:first-of-type{
+    grid-row-start: 2;
+    grid-row-end: 9;
     grid-column-start: 1;
     grid-column-end: 6;
     background-color: rgb(190, 255, 160);
@@ -44,38 +47,32 @@ body > section>textarea:first-of-type{
     resize: none;
 }
 
-body>section>input[type = button][value = 'sin' ],
-body>section>input[type = button][value = 'cos' ],
-body>section>input[type = button][value = 'tan' ],
-body>section>input[type = button][value = 'aSin' ],
-body>section>input[type = button][value = 'aCos' ],
-body>section>input[type = button][value = 'aTan' ] {
+body>form>input[type = button][value = 'sin' ],
+body>form>input[type = button][value = 'cos' ],
+body>form>input[type = button][value = 'tan' ],
+body>form>input[type = button][value = 'aSin' ],
+body>form>input[type = button][value = 'aCos' ],
+body>form>input[type = button][value = 'aTan' ] {
     background-color: black;
     color:blanchedalmond;
 
 }
 
-body>section>input[type = button][value = '*' ],
-body>section>input[type = button][value = '+' ],
-body>section>input[type = button][value = '-' ],
-body>section>input[type = button][value = '/' ]
+body>form>input[type = button][value = '*' ],
+body>form>input[type = button][value = '+' ],
+body>form>input[type = button][value = '-' ],
+body>form>input[type = button][value = '/' ]
  {
     background-color: rgb(117, 2, 2);
     color:rgb(255, 255, 255);
 
 }
 
-body>section>input[type = button][value = 'ENTER' ] {
+body>form>input[type = button][value = 'ENTER' ] {
     background-color: rgb(7, 77, 226);
     color:rgb(255, 255, 255);
-    grid-row-start: 12;
-    grid-row-end: 13;
     grid-column-start: 1;
     grid-column-end: 4;
-}
-h2 {
-    grid-row-start: 13;
-    grid-row-end: 14;
 }
 
 
