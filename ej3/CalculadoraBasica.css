@@ -18,12 +18,12 @@ body > form  {
    display:grid;
    grid-template-columns: repeat(4, auto);
    grid-template-rows:repeat(8,auto);
-   background-color: rgb(17, 17, 17);
+   background-color: rgb(0, 0, 0);
 }
 
 body>form>input[type = button] {
     color: white;
-    background-color: rgb(168, 168, 168);
+    background-color: rgb(2, 0, 124);
     font-size:1.4em;
     padding:0.4em;
     margin:0.6em;
