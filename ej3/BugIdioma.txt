@@ -1,0 +1,1 @@
+En TAW, me sale el bug del idioma cuando paso el hmtl de la CalculadoraBasica, sin embargo, es el único fallo

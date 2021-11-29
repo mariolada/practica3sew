@@ -24,15 +24,20 @@ class App {
                     maxZoom: 25,
                     id: 'mapbox/streets-v11'
                 }).addTo(mymap);
-
+              
                 L.Routing.control({
                     waypoints: [
                         L.latLng(latitude, longitude),
                         L.latLng(HUCA.latitude, HUCA.longitude)
                     ],
                     language: 'es'
+                   
                 }).addTo(mymap);
+                
+              
             });
+         
+          
         }
         else {
             var mymap = L.map('mapa', {
@@ -44,9 +49,12 @@ class App {
                 maxZoom: 25,
                 id: 'mapbox/streets-v11'
             }).addTo(mymap);
+            
         }
     }
 }
 
 var app = new App();
 app.obtenerRutaHuca();
+
+

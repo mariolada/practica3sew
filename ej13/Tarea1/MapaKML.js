@@ -15,10 +15,13 @@ function initMap() {
     preserveViewport: false,
     map: map
   });
+
   kmlLayer.addListener('click', function(event) {
     var content = event.featureData.infoWindowHtml;
     var testimonial = document.querySelector('section:last-of-type');
     testimonial.innerHTML = content;
   });
+ 
 }
 kmllayer.iniciarMapa = initMap;
+

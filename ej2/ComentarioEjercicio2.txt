@@ -3,3 +3,5 @@ dando valores por defecto o errores. Por eso al final he puesto las propiedades 
 
 Además, he tenido que utilizar <br> para facilitar la lectura de MásInfoNavegador, porque en el ejercicio nos manda incrustar la información en un solo 
 párrafo y como se colocaba toda la información seguida, no se podía leer fácilmente. Soy consciente de su uso, solo es para facilitar la compresión lectora
+
+-TAW da un error por el idioma de la página, pero según se comentó en el campus no es más que un bug conocido
