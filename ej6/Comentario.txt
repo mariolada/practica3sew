@@ -1,0 +1,4 @@
+Funcionamiento:
+para utilizar la calculadora introduce un numero en la pila, presiona la medida inicial y acto seguido presiona la medida que quieres obtener. 
+Saldra por pantalla el valor correspondiente. Si quieres volver a utilizar ese valor resultado, introduce la medida del resultado que has querido obtener
+(ya que está no se queda en la pila) y selecciona otra medida.
