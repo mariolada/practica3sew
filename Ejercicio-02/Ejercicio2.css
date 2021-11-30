@@ -1,0 +1,12 @@
+/*Especificidad (0,0,1)*/
+h1,h3 {
+    color: blue;
+}
+/*Especificidad (0,0,1)*/
+h2,h4 {
+    color: rgb(255, 72, 0);
+}
+/*Especificidad (0,0,1)*/
+p {
+    color: black;
+}

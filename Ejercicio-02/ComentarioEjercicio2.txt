@@ -1,0 +1,10 @@
+Para poder validar este HTML tienes que esperar a que se ejecute el script, ya que si no aparecen warnings de que los headers estan vacíos. Para validarlo, abrir el html, guardar una copia con Ctrl+s y ya se puede validar
+
+
+He intentado investigar propiedades de Navigator que no estuvieran deprecated, sin embargo, al intentar poner esas propiedades, no daban ningún valor, 
+dando valores por defecto o errores. Por eso al final he puesto las propiedades que aún estando deprecated, me devuelven valores correctos.
+
+Además, he tenido que utilizar <br> para facilitar la lectura de MásInfoNavegador, porque en el ejercicio nos manda incrustar la información en un solo 
+párrafo y como se colocaba toda la información seguida, no se podía leer fácilmente. Soy consciente de su uso, solo es para facilitar la compresión lectora
+
+-TAW da un error por el idioma de la página, pero según se comentó en el campus no es más que un bug conocido, ya que el idioma este declarado en el documento html

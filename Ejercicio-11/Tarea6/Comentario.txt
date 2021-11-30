@@ -1,0 +1,10 @@
+He utilizado MapBox para crear esta aplicación. Básicamente se utiliza para alguna emergencia, permites el accesoa  tu localización y te calcula
+la ruta más corta hasta el HUCA. 
+
+Comentario:
+Utilizo un script que usa funciones de MapBox, y esas funciones colocan marcadores(con una determinada imagen de una url) en el mapa. El problema es que no tienen asociado un "alt".
+He intentado resolver de todas las maneras un error que me daba WAVE de que no existe un "alt" en las imágenes intentando añadir el atributo con JQuery así $("img").attr("alt","marcador"); y con document así
+var imagenes = document.querySelector("img");
+imagenes.setAttribute("alt","marcador");
+Sin embaego, nada de esto ha funcionado y no he podido arreglar el error. Espero que lo tenga en cuenta, un saludo.
+Al final solo son dos errores(hay dos imágenes marcadores). Por el resto es perfectamente accesible

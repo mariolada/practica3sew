@@ -1,0 +1,4 @@
+En TAW, me sale el bug del idioma cuando paso el hmtl de la CalculadoraBasica, sin embargo, es el único fallo
+
+aChecker me da un error de contraste entre texto y fondo de h1, p y label. He probado todo tipo de colores y no se que puede haber más contrastado que blanco sobre negro.
+Entiendo que se trata de un falso positivo.

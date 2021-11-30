@@ -1,0 +1,17 @@
+/*Especificidad (0,0,1)*/
+body {
+    background-color: burlywood;
+    color: black;
+}
+/*Especificidad (0,0,1)*/
+h1,h2,h3,h4 {
+    color:rgb(59, 32, 0);
+
+}
+/*Especificidad (0,1,1)*/
+input[type = button]  {
+    font-size: 1.5em;
+    color:rgb(255, 255, 255);
+    background-color: rgb(44, 29, 0);
+}
+

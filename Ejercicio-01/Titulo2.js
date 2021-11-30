@@ -1,0 +1,1 @@
+document.write('<h2>'+infoCabecera.titulacion+'</h2>');

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas SYSTEM "arbolgenealogico.dtd">
+<personas>
+<persona nombre = "Mario" apellidos = "Lada Martínez">
+<datos>
+<fechaNacimiento>11/06/2001</fechaNacimiento>
+<lugarNacimiento>Oviedo</lugarNacimiento>
+<coordenadasNacimiento>
+<latitud>43.3603</latitud>
+<longitud>-5.84476</longitud>
+<altitud>238</altitud>
+</coordenadasNacimiento>
+<imagen>yo.jpg</imagen>
+<imagen>yo2.jpg</imagen>
+<imagen>yo3.jpg</imagen>
+<video>yo.mp4</video>
+<comentarios>Atlético, hizo karate desde los 5 años</comentarios>
+</datos>
+	<persona nombre = "Mario" apellidos = "Lada Rodríguez">
+	<datos>
+	<fechaNacimiento>7/07/1969</fechaNacimiento>
+	<lugarNacimiento>Mieres</lugarNacimiento>
+	<coordenadasNacimiento>
+	<latitud>43.2518</latitud>
+	<longitud>-5.7762</longitud>
+	<altitud>209</altitud>
+	</coordenadasNacimiento>
+	<fechaFallecimiento>no disponible</fechaFallecimiento>
+	<lugarFallecimiento>no disponible</lugarFallecimiento>
+	<coordenadasFallecimiento>
+	<latitud>no disponible</latitud>
+	<longitud>no disponible</longitud>
+	<altitud>no disponible</altitud>
+	</coordenadasFallecimiento>
+	<imagen>papa.jpg</imagen>
+	<imagen>papa2.jpg</imagen>
+	<comentarios>Ojos azules, fuerte</comentarios>
+	</datos>
+		<persona nombre = "Martín" apellidos = "Lada">
+		<datos>
+		<fechaNacimiento>8/08/1937</fechaNacimiento>
+		<lugarNacimiento>Mieres</lugarNacimiento>
+		<coordenadasNacimiento>
+		<latitud>43.2518</latitud>
+		<longitud>-5.7762</longitud>
+		<altitud>209</altitud>
+		</coordenadasNacimiento>
+		<fechaFallecimiento>11/06/2011</fechaFallecimiento>
+		<lugarFallecimiento>Novellana</lugarFallecimiento>
+		<coordenadasFallecimiento>
+		<latitud>43.3400</latitud>
+		<longitud>-6.2833</longitud>
+		<altitud>120</altitud>
+		</coordenadasFallecimiento>
+		<imagen>abuelop.jpg</imagen>
+		<comentarios>Gran carácter</comentarios>
+		</datos>
+			<persona nombre = "Rodrigo" apellidos = "Lada">
+			<datos>
+			<fechaNacimiento>no disponible</fechaNacimiento>
+			<lugarNacimiento>no disponible</lugarNacimiento>
+			<coordenadasNacimiento>
+			<latitud>no disponible</latitud>
+			<longitud>no disponible</longitud>
+			<altitud>no disponble</altitud>
+			</coordenadasNacimiento>
+			<fechaFallecimiento>no disponible</fechaFallecimiento>
+			<lugarFallecimiento>no disponible</lugarFallecimiento>
+			<coordenadasFallecimiento>
+			<latitud>no disponible</latitud>
+			<longitud>no disponible</longitud>
+			<altitud>no disponible</altitud>
+			</coordenadasFallecimiento>
+			<imagen>bisabuelop.jpg</imagen>
+			<video></video>
+			<comentarios>no disponible</comentarios>
+			</datos>
+			</persona>
+			<persona nombre = "Carmen" apellidos = "Jove">
+			<datos>
+			<fechaNacimiento>no disponible</fechaNacimiento>
+			<lugarNacimiento>Mieres</lugarNacimiento>
+			<coordenadasNacimiento>
+			<latitud>43.2518</latitud>
+			<longitud>-5.7762</longitud>
+			<altitud>209</altitud>
+			</coordenadasNacimiento>
+			<fechaFallecimiento>10/11/2002</fechaFallecimiento>
+			<lugarFallecimiento>Mieres</lugarFallecimiento>
+			<coordenadasFallecimiento>
+			<latitud>43.2518</latitud>
+			<longitud>-5.7762</longitud>
+			<altitud>209</altitud>
+			</coordenadasFallecimiento>
+			<imagen>bisabuelap.jpg</imagen>
+			<video>bisabuelaconmario.mp4</video>
+			<comentarios>Muy buena persona, siempre fue muy saludable</comentarios>
+			</datos>
+			</persona>
+		</persona>
+		<persona nombre = "Josefina" apellidos = "Rodríguez">
+		<datos>
+		<fechaNacimiento>19/09/1940</fechaNacimiento>
+		<lugarNacimiento>Mieres</lugarNacimiento>
+		<coordenadasNacimiento>
+		<latitud>43.2518</latitud>
+		<longitud>-5.7762</longitud>
+		<altitud>209</altitud>
+		</coordenadasNacimiento>
+		<fechaFallecimiento>no disponible</fechaFallecimiento>
+		<lugarFallecimiento>no disponible</lugarFallecimiento>
+		<coordenadasFallecimiento>
+		<latitud>no disponible</latitud>
+		<longitud>no disponible</longitud>
+		<altitud>no disponible</altitud>
+		</coordenadasFallecimiento>
+		<imagen>pita.jpg</imagen>
+		<imagen>pitacasadielles.jpg</imagen>
+		<video>pitaconaroa.mp4</video>
+		<comentarios>la mejor abuela del mundo</comentarios>
+		</datos>
+			<persona nombre = "Luis Manuel" apellidos = "Álvarez">
+			<datos>
+			<fechaNacimiento>no disponible</fechaNacimiento>
+			<lugarNacimiento>no disponible</lugarNacimiento>
+			<coordenadasNacimiento>
+			<latitud>no disponible</latitud>
+			<longitud>no disponible</longitud>
+			<altitud>no disponible</altitud>
+			</coordenadasNacimiento>
+			<fechaFallecimiento>no disponible</fechaFallecimiento>
+			<lugarFallecimiento>no disponible</lugarFallecimiento>
+			<coordenadasFallecimiento>
+			<latitud>no disponible</latitud>
+			<longitud>no disponible</longitud>
+			<altitud>no disponible</altitud>
+			</coordenadasFallecimiento>
+			<imagen>bisabuelopepita.jpg</imagen>
+			<comentarios>no disponible</comentarios>
+			</datos>
+			</persona>
+			<persona nombre = "María Teresa" apellidos = "Cuétara">
+			<datos>
+			<fechaNacimiento>no disponible</fechaNacimiento>
+			<lugarNacimiento>Oviñana</lugarNacimiento>
+			<coordenadasNacimiento>
+			<latitud>43.5747</latitud>
+			<longitud>-6.238</longitud>
+			<altitud>143</altitud>
+			</coordenadasNacimiento>
+			<fechaFallecimiento>no disponible</fechaFallecimiento>
+			<lugarFallecimiento>Mieres</lugarFallecimiento>
+			<coordenadasFallecimiento>
+			<latitud>43.2518</latitud>
+			<longitud>-5.7762</longitud>
+			<altitud>209</altitud>
+			</coordenadasFallecimiento>
+			<imagen>bisabuelapepita.jpg</imagen>
+			<comentarios>no disponible</comentarios>
+			</datos>
+			</persona>
+		</persona>
+
+
+	</persona>
+	<persona nombre = "Belén" apellidos = "Martínez Almanza">
+	<datos>
+	<fechaNacimiento>24/04/1969</fechaNacimiento>
+	<lugarNacimiento>La Bañeza</lugarNacimiento>
+	<coordenadasNacimiento>
+	<latitud>42.2975</latitud>
+	<longitud>-5.9091</longitud>
+	<altitud>779</altitud>
+	</coordenadasNacimiento>
+	<fechaFallecimiento>no disponible</fechaFallecimiento>
+	<lugarFallecimiento>no disponible</lugarFallecimiento>
+	<coordenadasFallecimiento>
+	<latitud>no disponible</latitud>
+	<longitud>no disponible</longitud>
+	<altitud>no disponible</altitud>
+	</coordenadasFallecimiento>
+	<imagen>mama.jpg</imagen>
+	<imagen>mama2.jpg</imagen>
+	<imagen>mama3.jpg</imagen>
+	<comentarios>Delgada y bajita, pero fuerte. Ojos castaños</comentarios>
+	</datos>
+	<persona nombre = "Manuel" apellidos = "Martínez">
+		<datos>
+		<fechaNacimiento>1/03/1928</fechaNacimiento>
+		<lugarNacimiento>Pobladura de Yuso</lugarNacimiento>
+		<coordenadasNacimiento>
+		<latitud>42.1928</latitud>
+		<longitud>-6.0735</longitud>
+		<altitud>845</altitud>
+		</coordenadasNacimiento>
+		<fechaFallecimiento>no disponible</fechaFallecimiento>
+		<lugarFallecimiento>no disponible</lugarFallecimiento>
+		<coordenadasFallecimiento>
+		<latitud>no disponibe</latitud>
+		<longitud>no disponible</longitud>
+		<altitud>no disponible</altitud>
+		</coordenadasFallecimiento>
+		<imagen>abuelom.jpg</imagen>
+		<imagen>abuelom2.jpg</imagen>
+		<video>abueloconmama.mp4</video>
+		<comentarios>Muy calmado, pero con mucho carácter si se enfada</comentarios>
+		</datos>
+			<persona nombre = "Fernando" apellidos = "Martínez">
+			<datos>
+			<fechaNacimiento>no disponible</fechaNacimiento>
+			<lugarNacimiento>Pobladura de Yuso</lugarNacimiento>
+			<coordenadasNacimiento>
+			<latitud>42.1928</latitud>
+			<longitud>-6.0735</longitud>
+			<altitud>845</altitud>
+			</coordenadasNacimiento>
+			<fechaFallecimiento>no disponible</fechaFallecimiento>
+			<lugarFallecimiento>Pobladura de Yuso</lugarFallecimiento>
+			<coordenadasFallecimiento>
+			<latitud>42.1928</latitud>
+			<longitud>-6.0735</longitud>
+			<altitud>845</altitud>
+			</coordenadasFallecimiento>
+			<imagen>bisabuelom.jpg</imagen>
+			<video>bisabuelomama.mp4</video>
+			<comentarios>no disponble</comentarios>
+			</datos>
+			</persona>
+			<persona nombre = "Maria del Rosario" apellidos = "Turrado">
+			<datos>
+			<fechaNacimiento>no disponible</fechaNacimiento>
+			<lugarNacimiento>Pinilla de la Valdería</lugarNacimiento>
+			<coordenadasNacimiento>
+			<latitud>42.1925</latitud>
+			<longitud>-6.0865</longitud>
+			<altitud>853</altitud>
+			</coordenadasNacimiento>
+			<fechaFallecimiento>no disponible</fechaFallecimiento>
+			<lugarFallecimiento>Pinilla de la Valdería</lugarFallecimiento>
+			<coordenadasFallecimiento>
+			<latitud>42.1925</latitud>
+			<longitud>-6.0865</longitud>
+			<altitud>853</altitud>
+			</coordenadasFallecimiento>
+			<imagen>bisa.jpg</imagen>
+			<video>bisacumple.mp4</video>
+			<comentarios>Muy delgada y bajita. Vivió 101 años</comentarios>
+			</datos>
+			</persona>
+		</persona>
+		<persona nombre = "Guadalupe" apellidos = "Almanza">
+		<datos>
+		<fechaNacimiento>no disponible</fechaNacimiento>
+		<lugarNacimiento>Pinilla de la Valdería</lugarNacimiento>
+		<coordenadasNacimiento>
+		<latitud>42.1925</latitud>
+		<longitud>-6.0865</longitud>
+		<altitud>853</altitud>
+		</coordenadasNacimiento>
+		<fechaFallecimiento>no disponible</fechaFallecimiento>
+		<lugarFallecimiento>ni disponible</lugarFallecimiento>
+		<coordenadasFallecimiento>
+		<latitud>no disponible</latitud>
+		<longitud>no disponible</longitud>
+		<altitud>no disponible</altitud>
+		</coordenadasFallecimiento>
+		<imagen>yaya.jpg</imagen>
+		<video>yayaconnala.mp4</video>
+		<comentarios>Probablemente la abuela con más energía de la historia</comentarios>
+		</datos>
+			<persona nombre = "Fernando" apellidos = "Almanza">
+			<datos>
+			<fechaNacimiento>no disponible</fechaNacimiento>
+			<lugarNacimiento>Pinilla de la Valdería</lugarNacimiento>
+			<coordenadasNacimiento>
+			<latitud>42.2025</latitud>
+			<longitud>-6.0865</longitud>
+			<altitud>853</altitud>
+			</coordenadasNacimiento>
+			<fechaFallecimiento>no disponible</fechaFallecimiento>
+			<lugarFallecimiento>ni disponible</lugarFallecimiento>
+			<coordenadasFallecimiento>
+			<latitud>no disponible</latitud>
+			<longitud>no disponible</longitud>
+			<altitud>no disponible</altitud>
+			</coordenadasFallecimiento>
+			<imagen>fer.jpg</imagen>
+			<comentarios>Sin comentarios</comentarios>
+			</datos>
+			</persona>
+			<persona nombre = "Rosa" apellidos = "Turrado">
+			<datos>
+			<fechaNacimiento>no disponible</fechaNacimiento>
+			<lugarNacimiento>Pinilla de la Valdería</lugarNacimiento>
+			<coordenadasNacimiento>
+			<latitud>42.1925</latitud>
+			<longitud>-6.0865</longitud>
+			<altitud>853</altitud>
+			</coordenadasNacimiento>
+			<fechaFallecimiento>no disponible</fechaFallecimiento>
+			<lugarFallecimiento>ni disponible</lugarFallecimiento>
+			<coordenadasFallecimiento>
+			<latitud>no disponible</latitud>
+			<longitud>no disponible</longitud>
+			<altitud>no disponible</altitud>
+			</coordenadasFallecimiento>
+			<imagen>rosa.jpg</imagen>
+			<comentarios>Alegre</comentarios>
+				</datos>
+			</persona>
+		</persona>
+	</persona>
+</persona>
+</personas>

@@ -1,0 +1,31 @@
+/*Especificidad (0,0,1)*/
+body {
+    margin: 0;
+    padding: 0;
+}
+/*Especificidad (0,1,1)*/
+section:first-of-type {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 500px;
+}
+/*Especificidad (0,1,0)*/
+.marker {
+    background-image: url('mapbox-icon.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/*Especificidad (0,1,0)*/
+.mapboxgl-popup {
+    max-width: 200px;
+}
+/*Especificidad (0,1,0)*/
+.mapboxgl-popup-content {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
