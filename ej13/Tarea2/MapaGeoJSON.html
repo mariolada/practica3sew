@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="utf-8" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -9,12 +10,21 @@
     <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.js"></script>
     <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.css" rel="stylesheet" />
     <link rel="stylesheet" href="MapaGeoJSON.css" />
+    <script src="MapaGeoJSON.js"></script>
 </head>
 
 <body>
     <h1>Mapa Generado a partir de GeoJSON</h1>
+    <p><input id="subirArchivos" type="file" name="Archivos" onchange="analizador.analizarJSON();"></p>
     <section id="map"></section>
-    <script src="MapaGeoJSON.js"></script>
+    <footer>
+        <p>UO275874, Información Energía Eléctrica JSON, Universidad de Oviedo</p>
+        <address>
+            <p> Información de contacto:
+                <a href="mailto:UO275874@uniovi.es">
+                    Mario Lada Martínez</a></p>
+        </address>
+    </footer>
 </body>
 
 </html>

@@ -1,0 +1,2 @@
+La hoja de estilos utiliza class para identificar los distintos elementos del mapa. Mapbox lo hace así e intenté usar otros selectores tal y como se recomiendan en la
+asignatura pero no pude.

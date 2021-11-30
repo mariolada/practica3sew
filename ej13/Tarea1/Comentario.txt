@@ -1,0 +1,1 @@
+En la section superior se representa el mapa con los lugares del kml y en la sección inferior sale la descripción de los lugares si los pinchas.

@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 
-#map {
+section:first-of-type {
     position: relative;
     top: 0;
     bottom: 0;

@@ -17,7 +17,7 @@ class MapaGeo {
             reader.onload = function (progressEvent) {
                 var contenido =  this.result.replaceAll("'", "\"");
 
-                var geojson =JSON.parse(contenido);
+                var geojson = JSON.parse(contenido);
                 const map = new mapboxgl.Map({
                     container: 'map',
                     style: 'mapbox://styles/mapbox/light-v10',

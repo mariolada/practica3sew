@@ -1,9 +1,9 @@
+
 "use strict";
-class Calculadora {
+class CalculadoraCientifica extends Calculadora {
     constructor() {
-        this.pantalla = "";
+        super();
         this.lastElement = "";
-        this.memoria = 0;
         this.potencia = 0;
         this.parentesisAbierto = false;
         this.parentesisAbiertos = 0;
@@ -26,7 +26,7 @@ class Calculadora {
                 this.parentesisAbierto = false;
             }
         } else {
-            this.pantalla += Number(numero);
+            super.digitos(numero);
             this.lastElement += Number(numero);
         }
         document.querySelector("input[type = text]").value = this.pantalla;
@@ -51,49 +51,45 @@ class Calculadora {
     }
 
     mMenos() {
-        this.memoria = eval(this.memoria + "-" + this.pantalla);
+        super.mMenos();
     }
     mMas() {
-        this.memoria = eval(this.memoria + "+" + this.pantalla);
+        super.mMas();
     }
     mrc() {
-        document.querySelector("input[type = text]").value = this.memoria;
+        super.mrc();
 
     }
     punto() {
-        this.pantalla += '.';
-        this.lastElement+='.';
-        document.querySelector("input[type = text]").value = this.pantalla;
+        super.punto();
+        this.lastElement += '.';
     }
     suma() {
-        this.pantalla += '+';
+        super.suma();
         if (this.parentesisAbierto == false) {
             this.lastElement = '';
         } else {
             this.lastElement += '+';
         }
-        document.querySelector("input[type = text]").value = this.pantalla;
     }
     resta() {
-        this.pantalla += '-';
+        super.resta();
         if (this.parentesisAbierto == false) {
             this.lastElement = '';
         } else {
             this.lastElement += '-';
         }
-        document.querySelector("input[type = text]").value = this.pantalla;
     }
     multiplicacion() {
-        this.pantalla += '*';
+        super.multiplicacion();
         if (this.parentesisAbierto == false) {
             this.lastElement = '';
         } else {
             this.lastElement += '*';
         }
-        document.querySelector("input[type = text]").value = this.pantalla;
     }
     division() {
-        this.pantalla += '/';
+        super.division();
         if (this.parentesisAbierto == false) {
             this.lastElement = '';
         } else {
@@ -102,25 +98,24 @@ class Calculadora {
         document.querySelector("input[type = text]").value = this.pantalla;
     }
     borrar() {
-        this.pantalla = '';
+        super.borrar();
         this.lastElement = '';
-        document.querySelector("input[type = text]").value = this.pantalla;
     }
     sin() {
         if (this.currentFunciones == "trig") {
             this.pantalla = this.pantalla.substring(0, this.pantalla.length - this.lastElement.length);
             this.pantalla += Math.sin(eval(this.lastElement));
-            this.lastElement= Math.sin(eval(this.lastElement));
+            this.lastElement = Math.sin(eval(this.lastElement));
             document.querySelector("input[type = text]").value = this.pantalla;
         } else if (this.currentFunciones == "inv") {
             this.pantalla = this.pantalla.substring(0, this.pantalla.length - this.lastElement.length);
             this.pantalla += Math.asin(eval(this.lastElement));
-            this.lastElement= Math.asin(eval(this.lastElement));
+            this.lastElement = Math.asin(eval(this.lastElement));
             document.querySelector("input[type = text]").value = this.pantalla;
         } else if (this.current == "hyp") {
             this.pantalla = this.pantalla.substring(0, this.pantalla.length - this.lastElement.length);
             this.pantalla += Math.sinh(eval(this.lastElement));
-            this.lastElement= Math.sinh(eval(this.lastElement));
+            this.lastElement = Math.sinh(eval(this.lastElement));
             document.querySelector("input[type = text]").value = this.pantalla;
         }
     }
@@ -163,7 +158,8 @@ class Calculadora {
 
     pow2() {
         this.pantalla = this.pantalla.substring(0, this.pantalla.length - this.lastElement.length);
-        this.pantalla += Math.pow(eval(this.lastElement, 2));
+        this.pantalla += Math.pow(eval(this.lastElement), 2);
+        this.lastElement = Math.pow(eval(this.lastElement), 2);
         document.querySelector("input[type = text]").value = this.pantalla;
     }
     powxy() {
@@ -178,11 +174,13 @@ class Calculadora {
     sqrt() {
         this.pantalla = this.pantalla.substring(0, this.pantalla.length - this.lastElement.length);
         this.pantalla += Math.sqrt(eval(this.lastElement));
+        this.lastElement = Math.sqrt(eval(this.lastElement));
         document.querySelector("input[type = text]").value = this.pantalla;
     }
     cbrt() {
         this.pantalla = this.pantalla.substring(0, this.pantalla.length - this.lastElement.length);
         this.pantalla += Math.cbrt(eval(this.lastElement));
+        this.lastElement = Math.cbrt(eval(this.lastElement));
         document.querySelector("input[type = text]").value = this.pantalla;
     }
 
@@ -190,11 +188,13 @@ class Calculadora {
 
         this.pantalla = this.pantalla.substring(0, this.pantalla.length - this.lastElement.length);
         this.pantalla += Math.pow(10, eval(this.lastElement));
+        this.lastElement = Math.pow(10, eval(this.lastElement));
         document.querySelector("input[type = text]").value = this.pantalla;
     }
     log10() {
         this.pantalla = this.pantalla.substring(0, this.pantalla.length - this.lastElement.length);
         this.pantalla += Math.log10(eval(this.lastElement));
+        this.lastElement = Math.log10(eval(this.lastElement));
         document.querySelector("input[type = text]").value = this.pantalla;
     }
     exp() {
@@ -202,7 +202,7 @@ class Calculadora {
         if (this.parentesisAbierto == false) {
             this.lastElement = '';
         } else {
-            this.lastElement += 'erytrty';
+            this.lastElement += 'e';
         }
         document.querySelector("input[type = text]").value = this.pantalla;
     }
@@ -218,11 +218,13 @@ class Calculadora {
     abs() {
         this.pantalla = this.pantalla.substring(0, this.pantalla.length - this.lastElement.length);
         this.pantalla += Math.abs(eval(this.lastElement));
+        this.lastElement = Math.abs(eval(this.lastElement));
         document.querySelector("input[type = text]").value = this.pantalla;
     }
     ln() {
         this.pantalla = this.pantalla.substring(0, this.pantalla.length - this.lastElement.length);
         this.pantalla += Math.log(eval(this.lastElement));
+        this.lastElement =  Math.log(eval(this.lastElement));
         document.querySelector("input[type = text]").value = this.pantalla;
     }
     borrarultimo() {
@@ -266,15 +268,8 @@ class Calculadora {
     }
 
     igual() {
-        try {
-            this.pantalla = "" + eval(this.pantalla);
-            document.querySelector("input[type = text]").value = this.pantalla;
-            this.lastElement = this.pantalla;
-
-        }
-        catch (err) {
-            document.querySelector("input[type = text]").value = "Error = " + err;
-        }
+        super.igual();
+        this.lastElement = this.pantalla;
     }
 
     eventosTeclado() {
@@ -311,5 +306,5 @@ class Calculadora {
     }
 
 }
-var calculadora = new Calculadora();
+var calculadora = new CalculadoraCientifica();
 calculadora.eventosTeclado();

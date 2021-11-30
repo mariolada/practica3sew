@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" type="text/css" href="CalculadoraCientifica.css" />
     <script src="CalculadoraBasica.js"></script>
-    <script src="CalculadoraCientificaConHerencia.js"></script>
+    <script src="CalculadoraCientifica.js"></script>
 
 
 
@@ -26,50 +26,50 @@
     </header>
     <label for="pantalla">Mario Lada Martínez</label>
     <form>
-        <input type="submit" id="s" value="UO275874" disabled>
-        <input type="text" id = "pantalla" disabled />
-        <input type="button" id="boton" value="C" onclick="calculadora.borrar()">
-        <input type="button" id="boton1" value="mrc" onclick="calculadora.mrc()">
-        <input type="button" id="boton2" value="m+" onclick="calculadora.mMenos()">
-        <input type="button" id="boton3" value="m-" onclick="calculadora.mMas()">
-        <input type="button" id="boton4" value="&#9003;" onclick="calculadora.borrarultimo()">
-        <input type="button" id="boton5" value="x^2" onclick="calculadora.pow2()">
-        <input type="button" id="boton6" value="trig" onclick="calculadora.trig()">
-        <input type="button" id="boton7" value="hyp" onclick="calculadora.hyp()">
-        <input type="button" id="boton8" value="inv" onclick="calculadora.inv()">
-        <input type="button" id="boton9" value="x^y" onclick="calculadora.powxy()">
-        <input type="button" id="boton10" value="&Sqrt;" onclick="calculadora.sqrt()">
+        <input type="submit" value="UO275874" disabled>
+        <input type="text" id="pantalla" disabled />
+        <input type="button" value="C" onclick="calculadora.borrar()">
+        <input type="button" value="mrc" onclick="calculadora.mrc()">
+        <input type="button" value="m+" onclick="calculadora.mMenos()">
+        <input type="button" value="m-" onclick="calculadora.mMas()">
+        <input type="button" value="&#9003;" onclick="calculadora.borrarultimo()">
+        <input type="button" value="x^2" onclick="calculadora.pow2()">
+        <input type="button" value="trig" onclick="calculadora.trig()">
+        <input type="button" value="hyp" onclick="calculadora.hyp()">
+        <input type="button" value="inv" onclick="calculadora.inv()">
+        <input type="button" value="x^y" onclick="calculadora.powxy()">
+        <input type="button" value="&Sqrt;" onclick="calculadora.sqrt()">
         <input type="button" id="sin" value="sin" onclick="calculadora.sin()">
         <input type="button" id="cos" value="cos" onclick="calculadora.cos()">
         <input type="button" id="tan" value="tan" onclick="calculadora.tan()">
-        <input type="button" id="boton14" value="3&Sqrt;" onclick="calculadora.cbrt()">
-        <input type="button" id="boton15" value="10^x" onclick="calculadora.pow10()">
-        <input type="button" id="boton16" value="7" onclick="calculadora.digitos('7')">
-        <input type="button" id="boton17" value="8" onclick="calculadora.digitos('8')">
-        <input type="button" id="boton18" value="9" onclick="calculadora.digitos('9')">
-        <input type="button" id="boton19" value="&#247;" onclick="calculadora.division()">
-        <input type="button" id="boton20" value="Exp" onclick="calculadora.exp()">
-        <input type="button" id="boton21" value="4" onclick="calculadora.digitos('4')">
-        <input type="button" id="boton22" value="5" onclick="calculadora.digitos('5')">
-        <input type="button" id="boton23" value="6" onclick="calculadora.digitos('6')">
-        <input type="button" id="boton24" value="x" onclick="calculadora.multiplicacion()">
-        <input type="button" id="boton25" value="Mod" onclick="calculadora.mod()">
-        <input type="button" id="boton26" value="1" onclick="calculadora.digitos('1')">
-        <input type="button" id="boton27" value="2" onclick="calculadora.digitos('2')">
-        <input type="button" id="boton28" value="3" onclick="calculadora.digitos('3')">
-        <input type="button" id="boton29" value="+" onclick="calculadora.suma()">
-        <input type="button" id="boton30" value="|x|" onclick="calculadora.abs()">
-        <input type="button" id="boton31" value="&#177;" onclick="calculadora.masmenos()">
-        <input type="button" id="boton32" value="0" onclick="calculadora.digitos('0')">
-        <input type="button" id="boton33" value="." onclick="calculadora.punto()">
-        <input type="button" id="boton34" value="-" onclick="calculadora.resta()">
-        <input type="button" id="boton35" value="log" onclick="calculadora.log10()">
-        <input type="button" id="boton36" value="&pi;" onclick="calculadora.pi()">
-        <input type="button" id="boton37" value="(" onclick="calculadora.digitos('(')">
-        <input type="button" id="boton38" value=")" onclick="calculadora.digitos(')')">
-        <input type="button" id="boton39" value="n!" onclick="calculadora.factorial()">
-        <input type="button" id="boton40" value="ln" onclick="calculadora.ln()">
-        <input type="button" id="boton41" value="=" onclick="calculadora.igual()">
+        <input type="button" value="3&Sqrt;" onclick="calculadora.cbrt()">
+        <input type="button" value="10^x" onclick="calculadora.pow10()">
+        <input type="button" value="7" onclick="calculadora.digitos('7')">
+        <input type="button" value="8" onclick="calculadora.digitos('8')">
+        <input type="button" value="9" onclick="calculadora.digitos('9')">
+        <input type="button" value="&#247;" onclick="calculadora.division()">
+        <input type="button" value="Exp" onclick="calculadora.exp()">
+        <input type="button" value="4" onclick="calculadora.digitos('4')">
+        <input type="button" value="5" onclick="calculadora.digitos('5')">
+        <input type="button" value="6" onclick="calculadora.digitos('6')">
+        <input type="button" value="x" onclick="calculadora.multiplicacion()">
+        <input type="button" value="Mod" onclick="calculadora.mod()">
+        <input type="button" value="1" onclick="calculadora.digitos('1')">
+        <input type="button" value="2" onclick="calculadora.digitos('2')">
+        <input type="button" value="3" onclick="calculadora.digitos('3')">
+        <input type="button" value="+" onclick="calculadora.suma()">
+        <input type="button" value="|x|" onclick="calculadora.abs()">
+        <input type="button" value="&#177;" onclick="calculadora.masmenos()">
+        <input type="button" value="0" onclick="calculadora.digitos('0')">
+        <input type="button" value="." onclick="calculadora.punto()">
+        <input type="button" value="-" onclick="calculadora.resta()">
+        <input type="button" value="log" onclick="calculadora.log10()">
+        <input type="button" value="&pi;" onclick="calculadora.pi()">
+        <input type="button" value="(" onclick="calculadora.digitos('(')">
+        <input type="button" value=")" onclick="calculadora.digitos(')')">
+        <input type="button" value="n!" onclick="calculadora.factorial()">
+        <input type="button" value="ln" onclick="calculadora.ln()">
+        <input type="button" value="=" onclick="calculadora.igual()">
 
     </form>
 
