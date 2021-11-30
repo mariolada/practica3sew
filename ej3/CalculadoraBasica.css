@@ -2,7 +2,7 @@ body {
     display:grid;
     grid-template-columns: repeat(1,1fr);
     grid-template-rows:repeat(3,auto);
-    background-color: rgb(255, 223, 174);
+    background-color: rgb(255, 255, 255);
 }
 
 input[type=submit] {
