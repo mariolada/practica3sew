@@ -1,23 +1,16 @@
 "use strict";
-class Calculadora {
+class CalculadoraRPNEspecifica extends CalculadoraRPN {
     constructor() {
-        this.pantalla = "";
-        this.current = "";
-        this.pila = new Array();   
+        super();  
         this.ultimomedida = false;
     }
 
     digitos(numero) {
-        this.pantalla+=numero;
-        this.current+=numero;
-        document.querySelector("textarea:first-of-type").value = this.pantalla;
+        super.digitos(numero);
         
     }
     enter(){
-        this.pila.push(parseFloat(this.current));
-        this.current = '';
-        this.pantalla+='\n';
-        document.querySelector("textarea:first-of-type").value = this.pantalla;
+       super.enter();
        
     
 
@@ -29,61 +22,17 @@ class Calculadora {
         document.querySelector("textarea:first-of-type").value = this.pantalla;
     }
     suma() {
-       var x2 = this.pila.pop();
-       var x1 = this.pila.pop();
-       var result = x1+x2;
-       this.pila.push(result);
-       this.current = result; 
-       this.current = '';
-       var representacionPila = '';
-       for(var i = 0; i < this.pila.length;i++) {
-            representacionPila+=this.pila[i]+'\n';
-       }
-       this.pantalla=representacionPila;
-       document.querySelector("textarea:first-of-type").value = this.pantalla;
+      super.suma();
 
     }
     resta() {
-        var x2 = this.pila.pop();
-        var x1 = this.pila.pop();
-        var result = x1-x2;
-        this.pila.push(result);
-        this.current = result; 
-        this.current = '';
-        var representacionPila = '';
-        for(var i = 0; i < this.pila.length;i++) {
-             representacionPila+=this.pila[i]+'\n';
-        }
-        this.pantalla=representacionPila;
-        document.querySelector("textarea:first-of-type").value = this.pantalla;
+        super.resta();
     }
     multiplicacion() {
-        var x2 = this.pila.pop();
-        var x1 = this.pila.pop();
-        var result = x1*x2;
-        this.pila.push(result);
-        this.current = result; 
-        this.current = '';
-        var representacionPila = '';
-        for(var i = 0; i < this.pila.length;i++) {
-             representacionPila+=this.pila[i]+'\n';
-        }
-        this.pantalla=representacionPila;
-        document.querySelector("textarea:first-of-type").value = this.pantalla;
+        super.multiplicacion();
     }
     division() {
-        var x2 = this.pila.pop();
-        var x1 = this.pila.pop();
-        var result = x1/x2;
-        this.pila.push(result);
-        this.current = result; 
-        this.current = '';
-        var representacionPila = '';
-        for(var i = 0; i < this.pila.length;i++) {
-             representacionPila+=this.pila[i]+'\n';
-        }
-        this.pantalla=representacionPila;
-        document.querySelector("textarea:first-of-type").value = this.pantalla;
+        super.division();
     }
     borrar() {
         this.pantalla = '';
@@ -93,88 +42,28 @@ class Calculadora {
         document.querySelector("textarea:first-of-type").value = this.pantalla;
     }
     sin() {
-        var x1 = this.pila.pop();
-        var result = Math.sin(x1);
-        this.pila.push(result);
-        this.current = result; 
-        this.current = '';
-        var representacionPila = '';
-        for(var i = 0; i < this.pila.length;i++) {
-             representacionPila+=this.pila[i]+'\n';
-        }
-        this.pantalla=representacionPila;
-        document.querySelector("textarea:first-of-type").value = this.pantalla;
+       super.sin();
     }
     
     cos() {
-        var x1 = this.pila.pop();
-        var result = Math.cos(x1);
-        this.pila.push(result);
-        this.current = result; 
-        this.current = '';
-        var representacionPila = '';
-        for(var i = 0; i < this.pila.length;i++) {
-             representacionPila+=this.pila[i]+'\n';
-        }
-        this.pantalla=representacionPila;
-        document.querySelector("textarea:first-of-type").value = this.pantalla;
+       super.cos();
     }
 
     
     tan() {
-        var x1 = this.pila.pop();
-        var result = Math.tan(x1);
-        this.pila.push(result);
-        this.current = result; 
-        this.current = '';
-        var representacionPila = '';
-        for(var i = 0; i < this.pila.length;i++) {
-             representacionPila+=this.pila[i]+'\n';
-        }
-        this.pantalla=representacionPila;
-        document.querySelector("textarea:first-of-type").value = this.pantalla;
+        super.tan();
     }
     aSin() {
-        var x1 = this.pila.pop();
-        var result = Math.asin(x1);
-        this.pila.push(result);
-        this.current = result; 
-        this.current = '';
-        var representacionPila = '';
-        for(var i = 0; i < this.pila.length;i++) {
-             representacionPila+=this.pila[i]+'\n';
-        }
-        this.pantalla=representacionPila;
-        document.querySelector("textarea:first-of-type").value = this.pantalla;
+        super.aSin();
     }
     
     aCos() {
-        var x1 = this.pila.pop();
-        var result = Math.acos(x1);
-        this.pila.push(result);
-        this.current = result; 
-        this.current = '';
-        var representacionPila = '';
-        for(var i = 0; i < this.pila.length;i++) {
-             representacionPila+=this.pila[i]+'\n';
-        }
-        this.pantalla=representacionPila;
-        document.querySelector("textarea:first-of-type").value = this.pantalla;
+        super.aCos();
     }
 
     
     aTan() {
-        var x1 = this.pila.pop();
-        var result = Math.atan(x1);
-        this.pila.push(result);
-        this.current = result; 
-        this.current = '';
-        var representacionPila = '';
-        for(var i = 0; i < this.pila.length;i++) {
-             representacionPila+=this.pila[i]+'\n';
-        }
-        this.pantalla=representacionPila;
-        document.querySelector("textarea:first-of-type").value = this.pantalla;
+        super.aTan();
     }
 
 
@@ -408,7 +297,7 @@ class Calculadora {
             if(ultimamedida=='lb') {
                 var libras = this.pila.pop();
                 var cambio = libras;
-                this.pantalla+=cambio+' libras';
+                this.pantalla+=cambio+' libras\n';
                 document.querySelector("textarea:first-of-type").value = this.pantalla;
                 this.pila.push(cambio);
                 this.ultimomedida=false;
@@ -416,7 +305,7 @@ class Calculadora {
             else if(ultimamedida=='kg') {
                 var libras = this.pila.pop();
                 var cambio = 2.20462*libras;
-                this.pantalla+=cambio+' libras';
+                this.pantalla+=cambio+' libras\n';
                 document.querySelector("textarea:first-of-type").value = this.pantalla;
                 this.pila.push(cambio);
                 this.ultimomedida=false;
@@ -424,7 +313,7 @@ class Calculadora {
             else  if(ultimamedida=='oz') {
                 var libras = this.pila.pop();
                 var cambio = 0.0625*libras;
-                this.pantalla+=cambio+' libras';
+                this.pantalla+=cambio+' libras\n';
                 document.querySelector("textarea:first-of-type").value = this.pantalla;
                 this.pila.push(cambio);
                 this.ultimomedida=false;
@@ -447,7 +336,7 @@ class Calculadora {
             if(ultimamedida=='oz') {
                 var libras = this.pila.pop();
                 var cambio = libras;
-                this.pantalla+=cambio+' onzas';
+                this.pantalla+=cambio+' onzas\n';
                 document.querySelector("textarea:first-of-type").value = this.pantalla;
                 this.pila.push(cambio);
                 this.ultimomedida=false;
@@ -455,7 +344,7 @@ class Calculadora {
             else if(ultimamedida=='lb') {
                 var libras = this.pila.pop();
                 var cambio = 16*libras;
-                this.pantalla+=cambio+' onzas';
+                this.pantalla+=cambio+' onzas\n';
                 document.querySelector("textarea:first-of-type").value = this.pantalla;
                 this.pila.push(cambio);
                 this.ultimomedida=false;
@@ -463,7 +352,7 @@ class Calculadora {
             else if(ultimamedida=='kg') {
                 var libras = this.pila.pop();
                 var cambio = 35.274*libras;
-                this.pantalla+=cambio+' onzas';
+                this.pantalla+=cambio+' onzas\n';
                 document.querySelector("textarea:first-of-type").value = this.pantalla;
                 this.pila.push(cambio);
                 this.ultimomedida=false;
@@ -544,7 +433,7 @@ class Calculadora {
             if(ultimamedida=='kg') {
                 var libras = this.pila.pop();
                 var cambio = libras;
-                this.pantalla+=cambio+' kilogramos';
+                this.pantalla+=cambio+' kilogramos\n';
                 document.querySelector("textarea:first-of-type").value = this.pantalla;
                 this.pila.push(cambio);
                 this.ultimomedida=false;
@@ -552,7 +441,7 @@ class Calculadora {
             else if(ultimamedida=='lb') {
                 var libras = this.pila.pop();
                 var cambio = 0.453592*libras;
-                this.pantalla+=cambio+' kilogramos';
+                this.pantalla+=cambio+' kilogramos\n';
                 document.querySelector("textarea:first-of-type").value = this.pantalla;
                 this.pila.push(cambio);
                 this.ultimomedida=false;
@@ -560,7 +449,7 @@ class Calculadora {
            else if(ultimamedida=='oz') {
                 var libras = this.pila.pop();
                 var cambio = 0.0283495*libras;
-                this.pantalla+=cambio+' kilogramos';
+                this.pantalla+=cambio+' kilogramos\n';
                 document.querySelector("textarea:first-of-type").value = this.pantalla;
                 this.pila.push(cambio);
                 this.ultimomedida=false;
@@ -571,8 +460,12 @@ class Calculadora {
 
 
     }
+    eventosTeclado() {
+      super.eventosTeclado();
+    }
 
 
   
 }
-var calculadora = new Calculadora();
+var calculadora = new CalculadoraRPNEspecifica();
+calculadora.eventosTeclado();

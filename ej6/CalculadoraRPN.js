@@ -1,5 +1,5 @@
 "use strict";
-class Calculadora {
+class CalculadoraRPN {
     constructor() {
         this.pantalla = "";
         this.current = "";
@@ -217,5 +217,3 @@ class Calculadora {
 
 
 }
-var calculadora = new Calculadora();
-calculadora.eventosTeclado();

@@ -7,8 +7,7 @@ class Calculadora {
 
     digitos(numero) {
         this.pantalla += Number(numero);
-        document.querySelector("input[type = text]").value = this.pantalla;
-    }
+        document.querySelector("input[type = text]").value = this.pantalla;    }
     mMenos() {
         this.memoria = eval(this.memoria + "-" + this.pantalla);
     }
@@ -20,28 +19,22 @@ class Calculadora {
     }
     punto() {
         this.pantalla += '.';
-        document.querySelector("input[type = text]").value = this.pantalla;
-    }
+        document.querySelector("input[type = text]").value = this.pantalla;    }
     suma() {
         this.pantalla += '+';
-        document.querySelector("input[type = text]").value = this.pantalla;
-    }
+        document.querySelector("input[type = text]").value = this.pantalla;    }
     resta() {
         this.pantalla += '-';
-        document.querySelector("input[type = text]").value = this.pantalla;
-    }
+        document.querySelector("input[type = text]").value = this.pantalla;    }
     multiplicacion() {
         this.pantalla += '*';
-        document.querySelector("input[type = text]").value = this.pantalla;
-    }
+        document.querySelector("input[type = text]").value = this.pantalla;    }
     division() {
         this.pantalla += '/';
-        document.querySelector("input[type = text]").value = this.pantalla;
-    }
+        document.querySelector("input[type = text]").value = this.pantalla;    }
     borrar() {
         this.pantalla = '';
-        document.querySelector("input[type = text]").value = this.pantalla;
-    }
+        document.querySelector("input[type = text]").value = this.pantalla;    }
 
     igual() {
         try {
@@ -49,8 +42,7 @@ class Calculadora {
             document.querySelector("input[type = text]").value = this.pantalla;
         }
         catch (err) {
-            document.querySelector("input[type = text]").value = err;
-        }
+            document.querySelector("input[type = text]").value = err;        }
     }
     eventosTeclado() {
         document.addEventListener('keydown', (event) => {
@@ -85,5 +77,3 @@ class Calculadora {
     }
 
 }
-var calculadora = new Calculadora();
-calculadora.eventosTeclado();

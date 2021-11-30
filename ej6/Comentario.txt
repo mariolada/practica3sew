@@ -1,4 +1,6 @@
 Funcionamiento:
-para utilizar la calculadora introduce un numero en la pila, presiona la medida inicial y acto seguido presiona la medida que quieres obtener. 
+para utilizar la calculadora introduce un numero en la pila, presiona la medida inicial(no hace falta hacer enter, se coloca automáticamente en pantalla) y acto seguido presiona la medida que quieres obtener. 
 Saldra por pantalla el valor correspondiente. Si quieres volver a utilizar ese valor resultado, introduce la medida del resultado que has querido obtener
 (ya que está no se queda en la pila) y selecciona otra medida.
+Si intentas hacer un cambio de unidades incorrecto, la calculadora no hará nada, pues no es un cambio correcto de unidades.(Las teclas de las diferentes unidades tienen
+colores distintos)
