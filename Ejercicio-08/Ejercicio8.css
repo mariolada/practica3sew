@@ -4,12 +4,26 @@ body {
     color: black;
 }
 /*Especificidad (0,0,1)*/
-h1,h2,h3,h4 {
+h1 {
+    font-size:1.6em;
+}
+/*Especificidad (0,0,1)*/
+h2,h3,h4 {
     color:rgb(59, 32, 0);
+    font-size: 1.3em;
 
 }
 /*Especificidad (0,0,1)*/
 button {
     color:rgb(255, 255, 255);
     background-color: rgb(44, 29, 0);
+    font-size: 1.1em;
+}
+/*Especificidad (0,0,1)*/
+p {
+    font-size:1.2em;
+}
+/*Especificidad (0,0,1)*/
+li{
+    font-size: 1.2em;
 }

@@ -26,7 +26,7 @@ class Meteo {
                         stringDatos += "<li>Latitud: " + datos.coord.lat + " grados</li>";
                         stringDatos += "<li>Longitud: " + datos.coord.lon + " grados</li></ul>";
                         stringDatos += "<h4>Información Meteorológica</h4>";
-                        stringDatos += " Tiempo General: "+datos.weather[0].main;
+                        stringDatos += "<p> Tiempo General: "+datos.weather[0].main+"</p>";
                         stringDatos += "<img src='https://openweathermap.org/img/w/"+datos.weather[0].icon+".png'/>";
                         stringDatos += "<ul><li>Temperatura: " + datos.main.temp + " grados Celsius</li>";
                         stringDatos += "<li>Temperatura máxima: " + datos.main.temp_max + " grados Celsius</li>";
